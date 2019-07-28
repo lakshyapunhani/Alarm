@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.LinearLayout;
+import android.widget.TimePicker;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.recycler_view_alarm)
     RecyclerView recycler_view_alarm;
+
+    @BindView(R.id.timePicker)
+    TimePicker timePicker;
 
     BottomSheetBehavior sheetBehaviorAlarmList;
     BottomSheetBehavior sheetBehaviorNewAlarm;
@@ -42,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         int peekHeight1 = Resources.getSystem().getDisplayMetrics().heightPixels/2;
         sheetBehaviorAlarmList.setPeekHeight(peekHeight1);
         sheetBehaviorNewAlarm.setPeekHeight(peekHeight);
+
+        timePicker.setIs24HourView(true);
         //bottom_sheet.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
     }
 

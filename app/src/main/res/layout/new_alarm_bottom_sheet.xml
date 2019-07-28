@@ -11,10 +11,131 @@
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
 
-    <ImageView
+    <TimePicker
+        android:layout_marginTop="20dp"
+        android:id="@+id/timePicker"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@mipmap/ic_launcher_round">
-    </ImageView>
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="S"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="M"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="W"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="F"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="S"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/submit_Additional_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Set alarm"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_orange"/>
+
+    </LinearLayout>
 
 </LinearLayout>
