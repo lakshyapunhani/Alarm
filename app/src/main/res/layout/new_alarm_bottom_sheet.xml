@@ -10,7 +10,6 @@
     app:behavior_peekHeight="350dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
-
     <TimePicker
         android:layout_marginTop="20dp"
         android:id="@+id/timePicker"
@@ -42,7 +41,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/monday"
@@ -52,7 +51,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/tuesday"
@@ -62,7 +61,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/wednesday"
@@ -72,7 +71,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/thursday"
@@ -82,7 +81,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/friday"
@@ -92,7 +91,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
         <TextView
             android:id="@+id/saturday"
@@ -102,7 +101,7 @@
             android:gravity="center"
             android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
 
     </LinearLayout>
@@ -129,12 +128,12 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Set alarm"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
             android:gravity="center"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
-            android:background="@color/bg_orange"/>
+            android:background="@drawable/rounded_orange_button"/>
 
     </LinearLayout>
 
